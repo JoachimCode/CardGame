@@ -22,6 +22,10 @@ public class Hand {
         this.hand = hand;
     }
 
+    /**
+     * Gets the value of the hand.
+     * @return The value of the hand
+     */
     public int getHandValue() {
             int handValue = 0;
             for (PlayingCard card : hand) {
@@ -30,6 +34,10 @@ public class Hand {
             return handValue;
         }
 
+    /**
+     * Gets the cards in the hand as a string.
+     * @return The cards in the hand as a string
+     */
     public String getCards() {
         StringBuilder cards = new StringBuilder();
         for (PlayingCard card : hand) {
