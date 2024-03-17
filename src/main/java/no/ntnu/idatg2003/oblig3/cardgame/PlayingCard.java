@@ -1,4 +1,4 @@
-package no.ntnu.idatx2003.oblig3.cardgame;
+package no.ntnu.idatg2003.oblig3.cardgame;
 
 /**
  * Represents a playing card. A playing card has a number (face) between
@@ -87,4 +87,6 @@ public class PlayingCard {
     hash = 31 * hash + getFace();
     return hash;
   }
+
+
 }
